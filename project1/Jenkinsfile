@@ -1,7 +1,7 @@
 node{
 stage('SCM checkout')
 {
-  git 'https://github.com/Rameshrs777/Myappjenkins'
+  git 'https://github.com/Rameshrs777/Myappjenkins/edit/master/project1'
 }
 stage('Compile-Package')
 {
