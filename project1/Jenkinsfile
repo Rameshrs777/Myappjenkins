@@ -1,0 +1,10 @@
+node{
+stage('SCM checkout')
+{
+  git 'https://github.com/Rameshrs777/Myappjenkins/new/master/project1'
+}
+stage('Compile-Package')
+{
+  sh 'mvn package'
+}
+}
